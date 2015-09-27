@@ -9,6 +9,9 @@ namespace NetHubsPack.Models
     {
         public int NetityID { get; set; }
         public int NetityTypeID { get; set; }
+        public int ManuCompanyID { get; set; }
+        public string NetityName { get; set; }
+        public decimal NetityPrice { get; set; }
         public List<NetDetail> NetDetailList { get; set; }
     }
 }
