@@ -13,10 +13,11 @@ namespace NetHubsPack.Controllers
         List<Netity> nelist = new List<Netity> 
         { 
             new Netity { NetityID = 1, NetityName = "R6700", NetityPrice = 100.50M, NetDetailList = null, NetityTypeID = 1 }, 
-            new Netity { NetityID = 2, NetDetailList = null, NetityTypeID = 2 },
-            new Netity { NetityID = 3, NetDetailList = null, NetityTypeID = 3 }, 
-            new Netity { NetityID = 4, NetDetailList = null, NetityTypeID = 4 }, 
-            new Netity { NetityID = 5, NetDetailList = null, NetityTypeID = 5 }
+            new Netity { NetityID = 2, NetityName = "R8000", NetityPrice = 150.50M, NetDetailList = null, NetityTypeID = 2 },
+            new Netity { NetityID = 3, NetityName = "R7500", NetityPrice = 200.00M, NetDetailList = null, NetityTypeID = 3 }, 
+            new Netity { NetityID = 4, NetityName = "R7000", NetityPrice = 300.00M, NetDetailList = null, NetityTypeID = 4 }, 
+            new Netity { NetityID = 5, NetityName = "R6300", NetityPrice = 50.50M, NetDetailList = null, NetityTypeID = 5 },
+            new Netity { NetityID = 6, NetityName = "R6250", NetityPrice = 35.50M, NetDetailList = null, NetityTypeID = 1 }
         };
        
         List<NetDetail> netDetailList = new List<NetDetail>
